@@ -34,6 +34,16 @@ switch (opcion)
         break;
 
     case 3:
+        Console.Clear();
+
+        string asteriscossuma = "";
+        for (int i = 1; i <= 5; i++)
+        {
+           
+            asteriscossuma += "*";
+            Console.WriteLine(asteriscossuma);
+
+        }
         break;
 
     case 4:
