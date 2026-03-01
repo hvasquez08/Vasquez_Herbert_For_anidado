@@ -4,26 +4,48 @@ Console.WriteLine("Mostrar un cuadrado de 5x5 con números 1.\r\n\r\nMostrar un 
 int opcion = int.Parse(Console.ReadLine());
 switch (opcion)
 {
+
     case 1:
+        Console.Clear();
+        Console.WriteLine("ejercicio resuelto: ");
+        for (int i = 0; i < 5; i++ )
+        {
+            for (int x= 0; x <5; x++)
+            {
+                Console.Write("1 ");
+           
+            }
+            Console.WriteLine();
+        }
         break;
-        case 2:
+
+    case 2:
         break;
-            case 3:
+
+    case 3:
         break;
-        case 4:
+
+    case 4:
         break;
-        case 5:
+
+    case 5:
         break;
-        case 6:
+
+    case 6:
         break;
-        case 7:
+
+    case 7:
         break;
-        case 8:
+
+    case 8:
         break;
-        case 9:
+
+    case 9:
         break;
-        case 10:
+
+    case 10:
         break;
-        default
+
+    default:
         break;
 }
