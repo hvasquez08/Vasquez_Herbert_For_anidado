@@ -93,6 +93,19 @@ switch (opcion)
         break;
 
     case 7:
+        Console.Clear();
+        Console.WriteLine("Ejercicio resuelto");
+
+        for (int i = 1; i <= 3; i++)
+        {
+            for (int x = 1; x <= 3; x++)
+            {
+                Console.Write($"{i}-{x},");
+            }
+            Console.WriteLine();
+        }
+
+
         break;
 
     case 8:
