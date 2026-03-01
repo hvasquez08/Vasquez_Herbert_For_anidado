@@ -70,14 +70,26 @@ switch (opcion)
             Console.WriteLine($"tabla del {i} ");
             for (int x = 1; x <= 10; x++)
             {
-                Console.Write($"{i}x{x}={i*x}");
-                Console.WriteLine();
+                Console.WriteLine($"{i}x{x}={i*x}");
+        
             }
             Console.WriteLine();
         }
         break;
 
     case 6:
+        Console.Clear();
+        Console.WriteLine("Ejercicio resuelto");
+        int y = 0;
+        for (int i = 1; i<=3; i++)
+        {
+            for (int x = 1; x<=3; x++) {
+                y++;
+                Console.Write(y);
+            }
+            Console.WriteLine();
+        }
+
         break;
 
     case 7:
