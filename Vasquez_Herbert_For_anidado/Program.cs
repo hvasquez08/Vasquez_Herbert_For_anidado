@@ -123,6 +123,19 @@ switch (opcion)
         break;
 
     case 9:
+        Console.Clear();
+        Console.WriteLine("ejercicio resuelto");
+        for (int i= 1; i<=5; i++)
+        {
+
+            for (int x=1; x<=5; x++)
+            {
+                Console.Write(i);
+                Console.WriteLine("");
+               
+            }
+            Console.WriteLine();
+        }
         break;
 
     case 10:
