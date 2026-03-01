@@ -104,11 +104,22 @@ switch (opcion)
             }
             Console.WriteLine();
         }
-
-
         break;
 
     case 8:
+        Console.Clear();
+        Console.WriteLine("Ejercicio resuelto");
+
+        for (int i = 1; i <= 4; i++)
+        {
+            for (int x = 1; x <= 4; x++)
+            {
+          
+                Console.Write($"{i*x} ");
+
+            }
+            Console.WriteLine();
+        }
         break;
 
     case 9:
