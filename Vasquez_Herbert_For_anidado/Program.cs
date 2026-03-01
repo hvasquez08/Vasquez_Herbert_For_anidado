@@ -20,6 +20,17 @@ switch (opcion)
         break;
 
     case 2:
+        Console.Clear();
+        Console.WriteLine("ejercicio resuelto: ");
+        for (int i = 0; i < 4; i++)
+        {
+            for (int x = 0; x < 6; x++)
+            {
+                Console.Write("* ");
+
+            }
+            Console.WriteLine();
+        }
         break;
 
     case 3:
