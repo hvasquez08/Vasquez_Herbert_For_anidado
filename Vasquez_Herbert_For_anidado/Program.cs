@@ -63,6 +63,18 @@ switch (opcion)
         break;
 
     case 5:
+        Console.Clear();
+        Console.WriteLine("ejercicio resuelto: ");
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine($"tabla del {i} ");
+            for (int x = 1; x <= 10; x++)
+            {
+                Console.Write($"{i}x{x}={i*x}");
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }
         break;
 
     case 6:
