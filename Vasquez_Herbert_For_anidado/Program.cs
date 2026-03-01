@@ -47,6 +47,19 @@ switch (opcion)
         break;
 
     case 4:
+        Console.Clear();
+
+        string asteriscoresta = "";
+        for (int i = 5; i >= 1; i--)
+        {
+            asteriscoresta = "";
+            for (int j = 1; j <= i; j++)
+            {
+                asteriscoresta += "*";
+            }
+            Console.WriteLine(asteriscoresta);
+        }
+
         break;
 
     case 5:
