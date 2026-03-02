@@ -1,5 +1,7 @@
 ﻿//creacion de la tarea
 //la seleccion de los ejercicios xd
+using System.Collections.Concurrent;
+
 Console.WriteLine("Mostrar un cuadrado de 5x5 con números 1.\r\n\r\nMostrar un rectángulo de 4 filas y 6 columnas con asteriscos.\r\n\r\nMostrar un triángulo creciente de 5 filas con asteriscos.\r\n\r\nMostrar un triángulo invertido de 5 filas.\r\n\r\nMostrar una tabla de multiplicar del 1 al 5 (todas juntas).\r\n\r\nMostrar una matriz 3x3 con números consecutivos del 1 al 9.\r\n\r\nMostrar las combinaciones posibles de números del 1 al 3 (ejemplo: 1-1, 1-2...).\r\n\r\nMostrar una tabla donde las filas sean del 1 al 4 y las columnas del 1 al 4.\r\n\r\nMostrar un patrón donde cada fila tenga el número de la fila repetido.\r\n\r\nMostrar un patrón numérico como:");
 int opcion = int.Parse(Console.ReadLine());
 switch (opcion)
@@ -137,6 +139,18 @@ switch (opcion)
         break;
 
     case 10:
+        Console.Clear();
+        Console.WriteLine("ejercicio resuelto");
+        int filas = 4;
+
+        for (int i = 1; i <= filas; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+        }
 
         break;
 
